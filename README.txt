@@ -1,5 +1,8 @@
 2/10/19 -- README for Google Trends modeling of pertussis
 Scripts were written by Christopher Arehart (christopher.h.arehart@colorado.edu)
+These scripts were written for a specific google trends epidemiology analysis and are not yet tailored for widespread use
+However, there are some parts of this analysis that might prove useful to others doing similar research.
+The public availability of these scripts hopefully improve transparency and reproducibility of results.
 
 Follow these scripts in the following order:
 
@@ -22,7 +25,7 @@ it uses the Cochrane Orcutt method to correct for autocorrelation.
 Model estimates are in estimates_topAIC_models_AR_corrected.csv
 
 estimates_all_models_averaged.R -- this R script constructs all possible combinations of models for each 
-geographic region.  The posterior probabilites are computed and then model averaging is used to generate
+geographic region.  The posterior probabilities are computed and then model averaging is used to generate
 the prediction output in estimates_all_models_averaged.csv
 
 estimates_all_models_averaged_AR_corrected.R -- this R script does the same as 
@@ -38,7 +41,7 @@ however it uses the Cochrane Orcutt method to correct for autocorrelation.  Mode
 estimates_top_models_averaged_AR_corrected.csv
 
 ##############################################################################################
-###### The following three R scripts generate plots from the outputs of the previous six ######
+###### The following three R scripts generate plots from the outputs of the previous six #####
 ##############################################################################################
 
 plots_all_models_estimates_2004-2011.R -- this R script generates a plot for each region over the timespan of
@@ -50,7 +53,7 @@ plots_all_models_estimates_2011_forecast.pdf
 
 plots_topAIC_models_estimates_2004-2011.R -- this R script is almost identical to 
 plots_all_models_estimates_2004-2011.R however it only plots the top AIC model for each region. Plots are
-out put in plots_topAIC_models_estimates_2004-2011.pdf
+output in plots_topAIC_models_estimates_2004-2011.pdf
 
 ###############################################################################################################
 ###### The following one R script generates the exploratory model for RMSE vs sociodemographic variables ######
