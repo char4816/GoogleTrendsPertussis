@@ -2,7 +2,7 @@
 Scripts were written by Christopher Arehart (christopher.h.arehart@colorado.edu)
 These scripts were written for a specific google trends epidemiology analysis and are not yet tailored for widespread use
 However, there are some parts of this analysis that might prove useful to others doing similar research.
-The public availability of these scripts hopefully improve transparency and reproducibility of results.
+The public availability of these scripts hopefully improves transparency and reproducibility of results.
 
 Follow these scripts in the following order:
 
