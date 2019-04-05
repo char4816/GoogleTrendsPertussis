@@ -68,7 +68,7 @@ the exploratory model.
 RMSE_and_R2_Tables.xlsx
 
 #####################################################################################################
-###### The R script generates the heatmap of adjusted R squared and RMSE values for the models ######
+###### This R script generates the heatmap of adjusted R squared and RMSE values for the models ######
 #####################################################################################################
 RMSE_heatmap.R -- this R script reads in data from RMSE_heatmap.csv to make the heatmap plots
 
