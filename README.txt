@@ -1,6 +1,8 @@
 2/10/19 -- README for Google Trends modeling of pertussis
 Scripts were written by Christopher Arehart (christopher.h.arehart@colorado.edu) to perform the analysis for:
 
+Arehart, C.H., David, M.Z. & Dukic, V. Tracking U.S. Pertussis Incidence: Correlation of Public Health Surveillance and Google Search Data Varies by State. Sci Rep 9, 19801 (2019). https://doi.org/10.1038/s41598-019-56385-z
+
 https://www.nature.com/articles/s41598-019-56385-z
 
 These scripts were written for a specific google trends epidemiology analysis and are not yet tailored for widespread use
