@@ -1,5 +1,8 @@
 2/10/19 -- README for Google Trends modeling of pertussis
-Scripts were written by Christopher Arehart (christopher.h.arehart@colorado.edu)
+Scripts were written by Christopher Arehart (christopher.h.arehart@colorado.edu) to perform the analysis for:
+
+https://www.nature.com/articles/s41598-019-56385-z
+
 These scripts were written for a specific google trends epidemiology analysis and are not yet tailored for widespread use
 However, there are some parts of this analysis that might prove useful to others doing similar research.
 The public availability of these scripts hopefully improves transparency and reproducibility of results.
